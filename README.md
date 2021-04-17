@@ -1,12 +1,14 @@
 # Programming Test
 
-Three different entry exam projects.  
+Three different entry exam projects programmed in Java.  
 * Problem 1 - program to find out if two Strings are anagrams to each other.
 * Problem 2 - finding all web-links on a website with Web Selenium.
 * Problem 3 - a calculator in three different levels. 
 - Level 1 accepts 2 operator and two numerical operators.
 - Level 2 calculates multiple operators of the same precedence.
 - Level 3 calculates multiple operators of different precedence.
+
+All projects runs through the console.
 
 ---
 ## Tech/framework used
@@ -22,7 +24,7 @@ Three different entry exam projects.
 Tech/frameworks needs to be downloaded to run the program.
 
 Directory of ChromeDriver needs to be set.
-Directory path needs to be entered to the getHttps method parameter *italic*driverDirectory inside the *italic*FindWeb class
+Directory path needs to be entered to the method getHttps parameter *driverDirectory* inside the *FindWeb* class
 ![ChromeDriver1](chromeDriver1.png)
 ![ChromeDriver2](chromeDriver2.png)
 
@@ -33,4 +35,4 @@ Lisa Ramel - ramel.lisa@outlook.com
 
 ---
 
-## © Lisa Ramel - 2021
+© 2021 - Lisa Ramel

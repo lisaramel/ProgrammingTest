@@ -26,7 +26,7 @@ public class FindWeb {
         // Finds all <a>href tags in a list
         List<WebElement> findAllLinks = driver.findElements(By.tagName("a"));
 
-        // Prints out each web address in the list
+        // Prints out each web-link from the list
         for(WebElement we : findAllLinks){
                 System.out.println(we.getAttribute("href"));
         }

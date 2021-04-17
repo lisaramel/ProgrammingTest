@@ -13,20 +13,21 @@ import java.util.Scanner;
  * Project: ProgrammingTest
  * Copywrite: MIT
  */
+
 public class FindWeb {
 
     public void getHttps(String URL, String driverDirectory){
 
-        // Set up where chromedriver is installed
+        // Set up to retrieve chromedriver
         System.setProperty("webdriver.chrome.driver", driverDirectory);
 
+        // Start the driver
         WebDriver driver = new ChromeDriver();
         driver.get(URL);
 
-        // Finds all <a>href tags in a list
+        // Finds all <a>href tags and places them in a list
         List<WebElement> findAllLinks = driver.findElements(By.tagName("a"));
 
-        // Prints out each web-link from the list
         for(WebElement we : findAllLinks){
                 System.out.println(we.getAttribute("href"));
         }
@@ -48,7 +49,7 @@ public class FindWeb {
                 System.exit(0);
             }
 
-            fw.getHttps(input, "/Users/Lisa/Desktop/Java/WebSelenium/chromedriver");
+            fw.getHttps(input, "add directory to ChromeDriver here");
             System.out.println();
         }
 

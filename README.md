@@ -25,8 +25,8 @@ Tech/frameworks needs to be downloaded to run the program.
 
 Directory of ChromeDriver needs to be set.
 Directory path needs to be entered to the method getHttps parameter *driverDirectory* inside the *FindWeb* class
-![ChromeDriver1](chromeDriver1.png)
-![ChromeDriver2](chromeDriver2.png)
+![ChromeDriver1](images/chromeDriver1.png)
+![ChromeDriver2](images/chromeDriver2.png)
 
 ---
 ## Contributors

@@ -15,7 +15,10 @@ import java.util.Scanner;
  */
 public class FindWeb {
 
-    public void getHttps(String URL){
+    public void getHttps(String URL, String driverDirectory){
+
+        // Set up where chromedriver is installed
+        System.setProperty("webdriver.chrome.driver", driverDirectory);
 
         WebDriver driver = new ChromeDriver();
         driver.get(URL);
@@ -34,9 +37,6 @@ public class FindWeb {
 
     public static void main(String[] args) {
 
-        // Set up where chromedriver is installed
-        System.setProperty("webdriver.chrome.driver", "/Users/Lisa/Desktop/Java/WebSelenium/chromedriver");
-
         FindWeb fw = new FindWeb();
         Scanner scan = new Scanner(System.in);
 
@@ -48,7 +48,7 @@ public class FindWeb {
                 System.exit(0);
             }
 
-            fw.getHttps(input);
+            fw.getHttps(input, "/Users/Lisa/Desktop/Java/WebSelenium/chromedriver");
             System.out.println();
         }
 

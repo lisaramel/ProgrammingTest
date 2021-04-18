@@ -14,11 +14,11 @@ import java.util.Scanner;
 public class CalculatorLevel1 {
 
     // Method that locates one of the symbols +-/* in the input
-    public Integer operator(String input, String c, int start) {
+    public Integer operator(String input, String operator, int start) {
 
         // Returns the index when one of the symbols are found, else it returns -1
         for (int i = start; i < input.length(); i++)
-            if (c.indexOf(input.charAt(i)) >= 0)
+            if (operator.indexOf(input.charAt(i)) >= 0)
                 return i;
         return -1;
     }
@@ -32,7 +32,7 @@ public class CalculatorLevel1 {
         int charPosition = operator(input, "+-*/", 1);
 
         // Checks if a symbol has been find
-        if (charPosition == 1) {
+        if (charPosition >= 1) {
 
             try {
 

@@ -15,7 +15,7 @@ public class DetectAnagram {
     public Boolean findAnagram(String firstWord, String secondWord){
 
         // Creates a CharArray for each of the parameters firstWord and secondWord
-        // Removes all whitespaces
+        // Removes all whitespaces and makes all letters lowercase
         char[] wordOne = firstWord.toLowerCase().replaceAll(" ", "").toCharArray();
         char[] wordTwo = secondWord.toLowerCase().replaceAll(" ", "").toCharArray();
 

@@ -1,7 +1,13 @@
 # Programming Test
 
 Three different entry exam projects programmed in Java.  
+
+---
+
+## Content
+
 * Problem 1 - program to find out if two Strings are anagrams to each other.
+  Unit tests for this problem can be found under test/Problem1/DetectAnagramTest
 * Problem 2 - finding all web-links on a website with Selenium WebDriver.
 * Problem 3 - a calculator in three different levels. 
 - Level 1 accepts 2 operator and two numerical operators.

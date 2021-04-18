@@ -15,7 +15,7 @@ All projects runs through the console.
 
 * [Maven](http://maven.apache.org)
 * [JUnit4](https://junit.org/junit4/)
-* [Web Selenium](https://www.selenium.dev/documentation/en/getting_started_with_webdriver/)
+* [Selenium WebDriver](https://www.selenium.dev/documentation/en/getting_started_with_webdriver/)
 * [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/)
 
 ---

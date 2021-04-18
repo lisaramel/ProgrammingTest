@@ -49,7 +49,7 @@ public class FindWeb {
                 System.exit(0);
             }
 
-            fw.getHttps(input, "add directory to ChromeDriver here");
+            fw.getHttps(input, "ADD DIRECTORY TO CHROMEDRIVER HERE (FOR EX. /Users/Desktop/Java/WebSelenium/chromedriver)");
             System.out.println();
         }
 

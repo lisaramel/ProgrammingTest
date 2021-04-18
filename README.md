@@ -2,7 +2,7 @@
 
 Three different entry exam projects programmed in Java.  
 * Problem 1 - program to find out if two Strings are anagrams to each other.
-* Problem 2 - finding all web-links on a website with Web Selenium.
+* Problem 2 - finding all web-links on a website with Selenium WebDriver.
 * Problem 3 - a calculator in three different levels. 
 - Level 1 accepts 2 operator and two numerical operators.
 - Level 2 calculates multiple operators of the same precedence.

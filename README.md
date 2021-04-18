@@ -6,13 +6,14 @@ Three different entry exam projects programmed in Java.
 
 ## Content
 
-* Problem 1 - program to find out if two Strings are anagrams to each other.
+* Problem 1 - program to find out if two Strings are anagrams to each other.<br>
   Unit tests for this problem can be found under test/Problem1/DetectAnagramTest
 * Problem 2 - finding all web-links on a website with Selenium WebDriver.
-* Problem 3 - a calculator in three different levels. 
-- Level 1 accepts 2 operator and two numerical operators.
-- Level 2 calculates multiple operators of the same precedence.
-- Level 3 calculates multiple operators of different precedence.
+* Problem 3 - a calculator in three different levels:
+
+~ Level 1 accepts 2 operator and two numerical operators.<br>
+~ Level 2 calculates multiple operators of the same precedence.<br>
+~ Level 3 calculates multiple operators of different precedence.
 
 All projects runs through the console.
 

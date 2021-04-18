@@ -27,7 +27,7 @@ For Problem2:
 ChromeDriver needs to be running and the directory of ChromeDriver needs to be set.
 The directory path needs to be entered to the method *getHttps* parameter *driverDirectory* inside the *FindWeb* class.
 
-<img src="images/chromeDriver1.png" width="100%">
+<img src="images/chromeDriver1.png" width="120%">
 <img src="images/chromeDriver2.png" width="80%">
 
 ---

@@ -24,7 +24,7 @@ All projects runs through the console.
 Tech/frameworks needs to be downloaded to run the program.
 
 Directory of ChromeDriver needs to be set.
-The directory path needs to be entered to the method getHttps parameter *driverDirectory* inside the *FindWeb* class.
+The directory path needs to be entered to the method *getHttps* parameter *driverDirectory* inside the *FindWeb* class.
 
 <img src="images/chromeDriver1.png" width="80%">
 <img src="images/chromeDriver2.png" width="80%">
